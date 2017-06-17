@@ -1,0 +1,10 @@
+.container{
+  text-align: center;
+}
+.logo{
+  display: block;
+  margin: 0 auto 20rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+}
