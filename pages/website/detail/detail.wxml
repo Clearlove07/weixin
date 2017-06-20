@@ -1,0 +1,14 @@
+<view class="info-form">
+  <view class="info-form-item">
+    <text class="form-text">Logo</text>
+    <image class="logo" src="{{company.logo}}"></image>
+  </view>
+  <view class="info-form-item">
+    <text class="form-text">官网名称</text>
+    <text class="name">{{company.name}}</text>
+  </view>
+  <view class="info-form-item">
+    <text class="form-text">电话</text>
+    <text class="tellphone">020-888888</text>
+  </view>
+</view>

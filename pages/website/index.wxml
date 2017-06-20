@@ -1,7 +1,23 @@
-<view class="container">
-    <image class="logo" src="/images/logo.png"></image>
-    <text class="guide-text">Hello Word!</text>
-    <view class="moto-btn">
-      <text class="btn-text">开启小程序之旅</text>
-    </view>
+<import src="index-template/list-item-template.wxml" />
+
+<view class="company-list-group">
+  <view class="company-list-title">
+    <text>我管理的</text>
+  </view>
+  <view class="company-list-item">
+    <image class="company-logo" src="/images/test/cu_logo_01.png"></image>
+    <text class="company-name">国腾盛华有限公司</text>
+    <image class="list-item-opt" src="/images/list_opt_icon.png"></image>
+  </view>
+</view>
+<view class="company-list-group collected">
+  <view class="company-list-title">
+    <text>我收藏的</text>
+  </view>
+  <block wx:for="{{collectedList}}" wx:key="*this" wx-for-item="item">
+    <template is="item" data="{{...item}}"></template>
+  </block>
+</view>
+<view class="create-btn">
+  <text>我也创建一个官网</text>
 </view>

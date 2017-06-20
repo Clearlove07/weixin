@@ -1,0 +1,14 @@
+.info-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.form-text{
+  font-size: 34rpx;
+}
+.logo{
+  width: 98rpx;
+  height: 98rpx;
+  border: 1ox solid #b4b4b4;
+}

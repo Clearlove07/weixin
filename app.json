@@ -1,12 +1,33 @@
 {
   "pages": [
-    "pages/website/index"
+    "pages/website/index",
+    "pages/website/detail/detail"
   ],
   "window": {
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "Clearlove",
-    "navigationBarTextStyle": "black",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "官网",
+    "navigationBarTextStyle": "#fff",
     "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "selectedColor": "#09bb07",
+    "list": [{
+      "pagePath": "pages/website/index",
+      "text": "官网",
+      "iconPath": "images/tabbar/websit_icon.png",
+      "selectedIconPath": "images/tabbar/websit_active_icon.png"
+    },
+    {
+      "pagePath": "pages/website/index",
+      "text": "统计",
+      "iconPath": "images/tabbar/statistics_icon.png",
+      "selectedIconPath": "images/tabbar/statistics_active_icon.png"
+    },
+    {
+      "pagePath": "pages/website/index",
+      "text": "我",
+      "iconPath": "images/tabbar/me_icon.png",
+      "selectedIconPath": "images/tabbar/me_active_icon.png"
+    }]
   }
 }

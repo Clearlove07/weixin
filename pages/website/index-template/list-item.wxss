@@ -1,0 +1,27 @@
+.company-list-item{
+  margin-left: 30rpx;
+  padding: 20rpx 30rpx 20rpx 0;
+  background-color: #FFF;
+  border-bottom: 1px solid #e5e5e5;
+}
+.company-list-item:last-child{
+  border-bottom: 0;
+}
+.company-logo{
+  margin-right: 20rpx;
+  width: 70rpx;
+  height: 70rpx;
+  border: 1px aolid #b4b4b4;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+.company-name{
+  display: inline-block;
+  max-width: 600rpx;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-size: 34rpx;
+  color: #000;
+  overflow: hidden;
+}

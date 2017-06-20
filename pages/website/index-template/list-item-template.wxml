@@ -1,0 +1,6 @@
+<template name="item">
+  <view class="company-list-item" catchtap="ondetailTap" data-item-id="{{id}}">
+    <image class="company-logo" src="{{logo}}"></image>
+    <text class="company-name">{{name}}</text>
+  </view>
+</template>
